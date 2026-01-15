@@ -78,11 +78,6 @@ percentage_per_class: 0.3
 
 ---
 
-## 🧠 Model: Vision Transformer (ViT)
-
-I used the pretrained `vit_b_16` from `torchvision.models`, and fine-tune it to classify 10 LULC categories.
-
-
 
 ## 📊 Outputs
 
