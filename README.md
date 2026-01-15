@@ -31,7 +31,7 @@ The project is structured modularly, powered by **Pipenv** for dependency manage
 
 ### 1. Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/Henry-Os/LULC-Noord-Brabant.git
 cd LULC-Brabant
 ````
 
