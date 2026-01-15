@@ -21,7 +21,7 @@ The project is structured modularly, powered by **Pipenv** for dependency manage
 ├── Phase_1A.ipynb        # ViT model training
 ├── Phase_1B.ipynb        # Earth Engine data sourcing and large-scale inference
 ├── Pipfile               # Reproducible environment with Pipenv
-└── .gitignore            # Ensures large data and model files are not tracked by Git
+└── .gitignore            
 
 ```
 
