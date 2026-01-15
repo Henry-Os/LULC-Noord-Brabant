@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Core Data Science & Visualization
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+pillow = "*"
+tqdm = "*"
+pyyaml = "*"
+
+# Deep Learning (PyTorch)
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+torchinfo = "*"
+
+# Geospatial & Remote Sensing
+earthengine-api = "*"
+geemap = "*"
+rasterio = "*"
+geopandas = "*"
+xarray = "*"
+localtileserver = "*"
+rtree = "*"
+folium = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
