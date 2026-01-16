@@ -10,16 +10,16 @@ This project uses deep learning architectures to map land cover and cropland. Th
 
 ```
 
-├── config.yaml           # Configuration for training and data parameters
-├── data/                 # Directory for EuroSAT and local geospatial data
-├── outputs/              # Stores trained weights (.pth), metric logs, and output GeoTIFFs
-├── datafactory.py        # PyTorch Dataset wrappers and augmentation pipelines
-├── engine.py             # Reusable training, validation, and optimization loops
-├── inference.py          # Sentinel-2 image processing for inference and map generation
-├── utils.py              # Helper functions for seeding, subsetting, and visualization
-├── Phase_1A.ipynb        # ViT model training
-├── Phase_1B.ipynb        # Earth Engine data sourcing and large-scale inference
-├── Pipfile               # Reproducible environment with Pipenv
+├── config.yaml                            # Configuration for training and data parameters
+├── data/                                  # Directory for EuroSAT and local geospatial data
+├── outputs/                               # Stores trained weights (.pth), metric logs, and output GeoTIFFs
+├── datafactory.py                         # PyTorch Dataset wrappers and augmentation pipelines
+├── engine.py                              # Reusable training, validation, and optimization loops
+├── inference.py                           # Sentinel-2 image processing for inference and map generation
+├── utils.py                               # Helper functions for seeding, subsetting, and visualization
+├── Training_EuroSAT_Phase1A.ipynb         # ViT model training
+├── Inference_Brabant_Phase1B.ipynb        # Earth Engine data sourcing and large-scale inference
+├── Pipfile                                # Reproducible environment with Pipenv
 └── .gitignore            
 
 ```
