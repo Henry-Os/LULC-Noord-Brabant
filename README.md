@@ -5,7 +5,6 @@ This project uses deep learning architectures to map land cover and cropland. Th
 - **Phase 1:** Fine-tune a pretrained **Vision Transformer (ViT)** (pretrained on ImageNet-21k) on the EuroSAT RGB dataset. The model is then deployed to classify the Noord-Brabant Province in the Netherlands into 10 LULC classes.
 - **Phase 2:** Mask out non-vegetative classes using the LULC results from Phase 1 and utilize the **Prithvi foundation model** for fine-grained crop classification. Loading.....
 
-The project is structured modularly, powered by **Pipenv** for dependency management and reproducible **YAML** configurations.
 
 ## 📂 Project Structure
 
